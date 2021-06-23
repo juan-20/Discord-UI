@@ -20,14 +20,26 @@ export const HastagIcon = styled(Hashtag)`
     width: 24px;
     height: 24px;
 
-    color: #fff;
-`;
-export const Description = styled.div`
-
-`;
-export const Separator = styled.div`
-
+    color: var(--symbol);
 `;
 export const Title = styled.div`
+    margin-left: 9px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    color: #fff;
+`;
+export const Description = styled.span`
+    font-size: 15px;
+    color: var(--gray );
+`;
+export const Separator = styled.div`
+ height: 24px;
+ width: 1px;
+ background-color: #fff;
+
+ opacity: 0.2;
+ margin: 0 13px ;
 
 `;
