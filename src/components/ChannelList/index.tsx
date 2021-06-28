@@ -1,3 +1,4 @@
+import ChannelButton from '../ChannelButton';
 import { AddCategoryIcon, Category, Container } from './styles';
 
 
@@ -14,12 +15,12 @@ function ChannelList() {
 
       </Category>
 
-      {/* <ChannelButton chanelName="chat-livre" />
-      <ChannelButton chanelName="" />
-      <ChannelButton chanelName="" />
-      <ChannelButton chanelName="" />
-      <ChannelButton chanelName="" />
-      <ChannelButton chanelName="" /> */}
+      <ChannelButton channelName="chat-livre" />
+      <ChannelButton channelName="trabalho" />
+      <ChannelButton channelName="lol" />
+      <ChannelButton channelName="vava" />
+      <ChannelButton channelName="mine" />
+      <ChannelButton channelName="filminho" />
 
     </Container>
   );
